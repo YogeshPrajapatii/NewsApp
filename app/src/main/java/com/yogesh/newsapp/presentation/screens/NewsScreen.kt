@@ -32,7 +32,7 @@ fun NewsScreen(
     // It automatically handles system bars padding when `enableEdgeToEdge` is used in the Activity.
     Scaffold { innerPadding ->
         Box(
-            // Apply the padding provided by Scaffold to prevent content from drawing under the status bar.
+            // Apply the padding  provided by Scaffold to prevent content from drawing under the status bar.
             modifier = Modifier
                 .padding(innerPadding)
                 .fillMaxSize(),
