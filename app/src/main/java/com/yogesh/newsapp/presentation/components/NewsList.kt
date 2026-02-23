@@ -19,6 +19,7 @@ fun NewsList(
     // LazyColumn is highly efficient for displaying long lists.
     // It only renders the items currently visible on the screen.
     LazyColumn {
+
         items(
             items = news,
             // Providing a unique key helps Compose optimize recompositions.
