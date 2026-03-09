@@ -35,7 +35,7 @@ fun AppNavigation(viewModel: NewsViewModel) {
         composable<Routes.NewsDetailScreen> { backStackEntry ->
             val routeObject = backStackEntry.toRoute<Routes.NewsDetailScreen>()
             val url = URLDecoder.decode(routeObject.url, "UTF-8")
-            // FIX: Yahan hum 'NewsDetailScreen' ko local 'navController' pass kar rahe hain.
+     
             NewsDetailScreen(url = url, navController = navController)
         }
     }
