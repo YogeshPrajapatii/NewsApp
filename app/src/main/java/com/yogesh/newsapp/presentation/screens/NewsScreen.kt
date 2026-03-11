@@ -52,6 +52,7 @@ fun NewsScreen(
                 is NewsResult.Success -> {
                     NewsList(
                         news = result.data,
+
                         onItemClick = onArticleClick
                     )
                 }
