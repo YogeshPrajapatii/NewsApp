@@ -55,6 +55,7 @@ fun NewsScreen(
 
                         onItemClick = onArticleClick
                     )
+
                 }
                 is NewsResult.Idle -> { /* Do nothing while in the initial idle state. */ }
             }
