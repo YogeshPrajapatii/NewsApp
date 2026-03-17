@@ -1,4 +1,4 @@
-package com.yogesh.newsapp.presentation.screens
+ipackage com.yogesh.newsapp.presentation.screens
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
@@ -59,6 +59,7 @@ fun NewsScreen(
                 }
                 is NewsResult.Idle -> { /* Do nothing while in the initial idle state. */ }
             }
+
         }
     }
 }
