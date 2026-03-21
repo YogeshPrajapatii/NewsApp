@@ -13,6 +13,7 @@ import kotlinx.coroutines.launch
 class NewsViewModel(private val newsRepo: NewsRepo) : ViewModel() {
 
     private val _newsState = MutableStateFlow<NewsResult<List<Article>>>(NewsResult.Idle)
+
     public val newsState: StateFlow<NewsResult<List<Article>>> = _newsState
 
     val errorMessage = mutableStateOf<String?>(null)
