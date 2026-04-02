@@ -29,6 +29,7 @@ class NewsViewModel(private val newsRepo: NewsRepo) : ViewModel() {
                 _newsState.value = NewsResult.Success(response)
 
 
+
             } catch (e: Exception) {
                 errorMessage.value = "Something went wrong"
 
