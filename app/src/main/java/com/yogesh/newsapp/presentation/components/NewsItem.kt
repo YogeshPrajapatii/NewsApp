@@ -38,6 +38,7 @@ import com.yogesh.newsapp.data.remote.dto.Article
  * @param article The [Article] data to display.
  * @param onItemClick A lambda function that is invoked when the card is clicked.
  */
+
 @Composable
 fun NewsItem(
     article: Article,
