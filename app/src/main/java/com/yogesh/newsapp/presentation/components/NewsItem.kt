@@ -31,6 +31,7 @@ import coil.compose.AsyncImage
 import com.yogesh.newsapp.R
 import com.yogesh.newsapp.data.remote.dto.Article
 
+
 /**
  * A composable that displays a single news article in a card layout.
  * It handles image loading, placeholder, and error states gracefully.
