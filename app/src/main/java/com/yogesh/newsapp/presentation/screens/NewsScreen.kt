@@ -57,6 +57,8 @@ fun NewsScreen(
                     )
 
                 }
+
+
                 is NewsResult.Idle -> { /* Do nothing while in the initial idle state. */ }
             }
 
